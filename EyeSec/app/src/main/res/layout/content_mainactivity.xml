@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/Background"
+    tools:context=".LoginActivity">
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/logo"
+
+        />
+    <TextView
+        android:id="@+id/Lattitude"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/Lattitude" />
+
+    <TextView
+        android:id="@+id/Lattitude_result"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/Lattitude_result" />
+
+    <TextView
+        android:id="@+id/Longitude"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/Longitude" />
+
+    <TextView
+        android:id="@+id/Longitude_result"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/Longitude_result" />
+
+    <TextView
+        android:id="@+id/Lieu"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/Lieu" />
+
+    <EditText
+        android:id="@+id/area_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Lieu"
+        android:layout_alignBottom="@+id/Lieu"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/rayon_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="175dp"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/rayon"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_alignBaseline="@id/rayon_submit"
+        android:text="@string/rayon" />
+
+    <TextView
+        android:id="@+id/confirm"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+
+
+        android:text="@string/confirm" />
+
+
+    <Button
+        android:id="@+id/bt_ajout_lieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_below="@+id/et_Password"
+        android:layout_marginLeft="200dp"
+        android:text="@string/bt_ajout_lieu" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

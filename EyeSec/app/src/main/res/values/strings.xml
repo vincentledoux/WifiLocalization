@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EyeSec</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="tv_password">Password</string>
+    <string name="bt_sign_ln">Sign Up</string>
+    <string name="tv_Message_1" />
+    <string name="Longitude_result">Longitude_result</string>
+    <string name="Lattitude_result">Lattitude_result</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Lattitude">Lattitude</string>
+    <string name="Log_In">Log In</string>
+    <string name="Lieu">Area</string>
+    <string name="bt_ajout_lieu">Add</string>
+    <string name="rayon">Rayon</string>
+    <string name="confirm"></string>
+    <string name="Salle">Salle</string>
+    <string name="malatitude">Latitude</string>
+</resources>
